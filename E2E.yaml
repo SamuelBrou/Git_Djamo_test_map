@@ -1,0 +1,9 @@
+appId: com.google.android.apps.maps
+onFlonFlowStart:
+  - runFlow: 1-Search.yaml
+  - runFlow: 2-Modify.yaml
+onFlowComplete:
+  - runFlow: 3-Itineraire.yaml
+---
+- launchApp:
+    clearState: true

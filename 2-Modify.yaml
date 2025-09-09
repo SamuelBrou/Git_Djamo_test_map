@@ -1,0 +1,20 @@
+appId: com.google.android.apps.maps
+tags:
+  - modify
+---
+- launchApp:
+    clearState: true
+- tapOn: Search here
+- inputText: Abidjan
+- pressKey: Enter
+- waitForAnimationToEnd:
+    timeout: 5000
+- assertVisible: Abidjan
+- takeScreenshot: MainScreen
+- tapOn: Abidjan
+- tapOn:
+    id: search_omnibox_text_clear
+- tapOn: Clear
+- inputText: Dakar
+- pressKey: Enter
+- takeScreenshot: MainScreen

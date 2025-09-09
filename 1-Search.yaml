@@ -1,0 +1,14 @@
+appId: com.google.android.apps.maps
+tags:
+  - search
+---
+- launchApp:
+    clearState: true
+- assertVisible: Search here
+- tapOn: Search here
+- inputText: Abidjan
+- pressKey: Enter
+- waitForAnimationToEnd:
+    timeout: 5000
+- assertVisible: Abidjan
+- takeScreenshot: MainScreen

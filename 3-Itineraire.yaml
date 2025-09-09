@@ -1,0 +1,24 @@
+appId: com.google.android.apps.maps
+tags:
+  - itineraire
+---
+- launchApp:
+    clearState: true
+- assertVisible: Search here
+- tapOn: Search here
+- inputText: Abidjan
+- pressKey: Enter
+- waitForAnimationToEnd:
+    timeout: 5000
+- assertVisible: Abidjan
+- takeScreenshot: MainScreen
+- tapOn: Directions
+- pressKey: Enter
+- tapOn: Choose start location
+- eraseText
+- inputText: Dakar
+- pressKey: Enter
+- waitForAnimationToEnd:
+    timeout: 5000
+- assertVisible: Abidjan
+- takeScreenshot: MainScreen

@@ -32,7 +32,7 @@ brew tap mobile-dev-inc/tap
 brew install maestro
 
 
-Un émulateur Android (AVD) ou un simulateur iOS disponible
+Un émulateur Android 
 
 2. Sur Windows
 
@@ -48,7 +48,7 @@ Maestro :
 choco install maestro
 
 
-Un émulateur Android (AVD) ou un device physique avec l’application Google Maps installée
+Un émulateur Android 
 
 3. Vérifications
 

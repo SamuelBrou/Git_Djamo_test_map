@@ -17,7 +17,7 @@ L’objectif est de vérifier la recherche, la génération d’itinéraires.
 
 ## 🛠️ Prérequis
 
-1️⃣ Sur macOS
+1. Sur macOS
 
 Homebrew : https://brew.sh/
 
@@ -34,7 +34,7 @@ brew install maestro
 
 Un émulateur Android (AVD) ou un simulateur iOS disponible
 
-2️⃣ Sur Windows
+2. Sur Windows
 
 Chocolatey : https://chocolatey.org/
 
@@ -50,7 +50,7 @@ choco install maestro
 
 Un émulateur Android (AVD) ou un device physique avec l’application Google Maps installée
 
-3️⃣ Vérifications
+3. Vérifications
 
 Pour confirmer que Java et Maestro sont installés correctement :
 
